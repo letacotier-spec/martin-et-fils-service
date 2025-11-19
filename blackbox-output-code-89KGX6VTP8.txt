@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin & Fils Service - Dépannage Plomberie</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        header { background-color: #007bff; color: white; text-align: center; padding: 40px 20px; }
+        .hero { text-align: center; padding: 50px 20px; background-color: white; }
+        .services { display: flex; flex-wrap: wrap; justify-content: space-around; padding: 20px; }
+        .service { background: white; padding: 20px; margin: 10px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); width: 300px; text-align: center; }
+        footer { background-color: #333; color: white; text-align: center; padding: 20px; }
+        a { color: #007bff; text-decoration: none; }
+        @media (max-width: 768px) { .services { flex-direction: column; align-items: center; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Martin & Fils Service</h1>
+        <p>Votre partenaire de confiance pour tous vos dépannages : plomberie, serrurerie et débouchage de canalisations.</p>
+    </header>
+    
+    <section class="hero">
+        <h2>Bienvenue</h2>
+        <p>Nous intervenons rapidement et efficacement pour résoudre vos problèmes de dépannage. Contactez-nous dès maintenant pour un devis gratuit !</p>
+        <a href="#contact">Nous contacter</a>
+    </section>
+    
+    <section class="services">
+        <div class="service">
+            <h3>Débouchage de Canaux</h3>
+            <p>Élimination rapide des obstructions dans vos canalisations. Service 24/7 pour urgences.</p>
+        </div>
+        <div class="service">
+            <h3>Dépannage Serrurier</h3>
+            <p>Ouverture de portes, changement de serrures, installation de systèmes de sécurité.</p>
+        </div>
+        <div class="service">
+            <h3>Plomberie</h3>
+            <p>Réparations, installations et maintenance de vos équipements de plomberie.</p>
+        </div>
+    </section>
+    
+    <footer id="contact">
+        <h3>Contactez-nous</h3>
+        <p>Email : contact@martinetfils.com</p>
+        <p>Téléphone : 01 23 45 67 89</p>
+        <p>Adresse : 123 Rue Exemple, Ville, France</p>
+        <p>&copy; 2023 Martin & Fils Service. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
